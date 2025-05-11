@@ -503,4 +503,4 @@ describe("TrustNodes Contract", () => {
       const reputation = trustNodes.callReadOnly(
         "get-domain-reputation", 
         [address1, "blockchain"]
-});
+})
